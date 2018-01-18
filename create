@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp jichu/base.py test.py
