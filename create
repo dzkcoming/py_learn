@@ -1,3 +1,4 @@
 #!/bin/bash
 
 cp jichu/base.py test.py
+chmod +x test.py
