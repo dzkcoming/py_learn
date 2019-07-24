@@ -1,4 +1,10 @@
 #!/bin/bash
 
-cp jichu/base.py test.py
-chmod +x test.py
+if [ $# == 0 ]; then
+	filename="default.py"
+else
+	filename="$1"".py"
+fi
+
+cp jichu/base.py $filename
+chmod +x $filename

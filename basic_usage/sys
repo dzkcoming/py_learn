@@ -1,0 +1,2 @@
+# 查看系统参数个数及内容
+print (len(sys.argv), sys.argv)

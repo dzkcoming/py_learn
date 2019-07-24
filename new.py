@@ -5,5 +5,4 @@
 
 __author__ = 'Mat K'
 
-
-print("in test", __name__)
+print("in new", __name__)
